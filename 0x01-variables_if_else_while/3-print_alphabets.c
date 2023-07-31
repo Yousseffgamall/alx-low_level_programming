@@ -12,12 +12,12 @@ int main(void)
 	/*prints a - z*/
 	while (ch <= 'z')
 	{
-		putchar(c);
+		putchar(ch);
 		c++;
 	}
 	while (CH <= 'Z')
 	{
-		putchar(c);
+		putchar(CH);
 		c++;
 	}
 
