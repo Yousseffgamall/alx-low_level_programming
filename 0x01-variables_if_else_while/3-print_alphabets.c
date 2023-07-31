@@ -6,17 +6,16 @@ include < stdio.h >
  */
 int main(void)
 {
-	char c = 'a';
+	char ch = 'a';
+	char CH = 'A';
 
-	while (c <= 'z')
+	/*prints a - z*/
+	while (ch <= 'z')
 	{
 		putchar(c);
 		c++;
 	}
-
-	c = 'A';
-
-	while (c <= 'Z')
+	while (CH <= 'Z')
 	{
 		putchar(c);
 		c++;
